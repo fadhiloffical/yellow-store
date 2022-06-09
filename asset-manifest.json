@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd3226b7.css",
-    "main.js": "/static/js/main.ceadc924.js",
-    "static/js/787.bdb66e51.chunk.js": "/static/js/787.bdb66e51.chunk.js",
-    "static/media/banner-img1.jpg": "/static/media/banner-img1.7fcfbe6acfa12886cd0e.jpg",
-    "index.html": "/index.html",
-    "main.dd3226b7.css.map": "/static/css/main.dd3226b7.css.map",
-    "main.ceadc924.js.map": "/static/js/main.ceadc924.js.map",
-    "787.bdb66e51.chunk.js.map": "/static/js/787.bdb66e51.chunk.js.map"
+    "main.css": "/yellow-store/static/css/main.b40d275b.css",
+    "main.js": "/yellow-store/static/js/main.18bb333c.js",
+    "static/js/787.bdb66e51.chunk.js": "/yellow-store/static/js/787.bdb66e51.chunk.js",
+    "static/media/banner-img1.jpg": "/yellow-store/static/media/banner-img1.7fcfbe6acfa12886cd0e.jpg",
+    "index.html": "/yellow-store/index.html",
+    "main.b40d275b.css.map": "/yellow-store/static/css/main.b40d275b.css.map",
+    "main.18bb333c.js.map": "/yellow-store/static/js/main.18bb333c.js.map",
+    "787.bdb66e51.chunk.js.map": "/yellow-store/static/js/787.bdb66e51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd3226b7.css",
-    "static/js/main.ceadc924.js"
+    "static/css/main.b40d275b.css",
+    "static/js/main.18bb333c.js"
   ]
 }
