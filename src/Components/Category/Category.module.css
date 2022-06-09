@@ -1,0 +1,120 @@
+.CategoryWrapper {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 40px 0;
+}
+.CategoryContentWrapper {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.CategoryBannerWrapper {
+    width: 57.5%;
+    border-radius: 60px;
+    height: 450px;
+    background: url(../../img/banner-img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.CategoryListWrapper {
+    width: 42.5%;
+    float: left;
+}
+.CategoryListWrapper ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-left: 75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.CategoryListWrapper li {
+    width: 185px;
+    height: 185px;
+    background: antiquewhite;
+    margin: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .CategoryListWrapper li img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50px;
+  }
+  @media only screen and (max-width: 1700px) {
+    .CategoryBannerWrapper {
+        width: 55%;
+        height: 380px;
+    }
+    .CategoryListWrapper {
+        width: 45%;
+        float: left;
+    }
+    .CategoryListWrapper ul {
+        padding-left: 35px;
+    }
+    .CategoryListWrapper li {
+        width: 165px;
+        height: 165px;
+      }
+  }
+  @media only screen and (max-width: 1400px) {
+    .CategoryBannerWrapper {
+        width: 52%;
+        height: 380px;
+    }
+    .CategoryListWrapper {
+        width: 48%;
+        float: left;
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    .CategoryBannerWrapper {
+        width: 50%;
+        height: 380px;
+    }
+    .CategoryListWrapper {
+        width: 50%;
+        float: left;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .CategoryContentWrapper {
+        flex-direction: column;
+    }
+    .CategoryBannerWrapper {
+        width: 70%;
+        height: 380px;
+        margin-bottom: 30px;
+    }
+    .CategoryListWrapper {
+        width: 100%;
+        float: left;
+    }
+    .CategoryListWrapper ul {
+        padding: 0;
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .CategoryBannerWrapper {
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .CategoryWrapper {
+        margin: 10px 0;
+    }
+    .CategoryBannerWrapper {
+        height: 265px;
+    }
+  }

@@ -1,0 +1,80 @@
+.ProductCard {
+    width: 100%;
+    max-width: 300px;
+    min-height: 300px;
+    margin: 10px 0;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(243,243,243,1);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(243,243,243,1);
+    box-shadow: 0px 0px 15px 5px rgb(243, 243, 243);
+    border-radius: 50px;
+}
+.SingleProductBanner{
+    background-color: antiquewhite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+}
+.SingleProductTitle {
+    font-size: 20px;
+    margin: 10px 25px 0 25px;
+}
+.PriceDeatilsWrapper{
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.SingleProductPrice {
+    color: gray;
+    margin: 0;
+    font-size: 17px;
+}
+.AmountBox {
+    height: 25px;
+    width: 50px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #80808070;
+    margin-right: 5px;
+    color: gray;
+    float: left;
+  }
+  .AddButton {
+    background: transparent;
+    outline: none;
+    border: 1px solid #007bff;
+    height: 29px;
+    width: 67px;
+    border-radius: 20px;
+    float: left;
+    color: #007bff;
+    font-weight: 400;
+    transition: .3s ease all;
+  }
+  .AddButton:hover {
+    background: #007bff;
+    color: #fff;
+    transition: .3s ease all;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 1700px) {
+    .ProductCard {
+        width: 100%;
+        max-width: 250px;
+    }
+    .SingleProductBanner{
+        height: 175px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .SingleProductTitle {
+        font-size: 18px;
+        margin: 10px 25px 0 25px;
+    }
+    .SingleProductPrice {
+        font-size: 16px;
+    }
+  }
+  

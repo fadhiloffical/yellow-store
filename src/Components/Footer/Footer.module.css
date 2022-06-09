@@ -1,0 +1,11 @@
+.FooterWrapper {
+    width: 100%;
+    float: left;
+    height: auto;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    color: #fff;
+  }

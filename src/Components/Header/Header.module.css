@@ -1,0 +1,98 @@
+.HeaderWrapper{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 25px 0;
+}
+.HeaderContentWrapper{
+    width: 100%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoWrapper {
+    width: 175px;
+    height: auto;
+    float: left;
+}
+.hotelTitleWrapper{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    text-align: center;
+}
+.hotelTitleWrapper h1 {
+    margin: 0;
+}
+.hotelTitleWrapper p{
+    margin: 0;
+    font-size: 24px;
+    color: grey;
+}
+.MenuWrapper{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SearchIconWrapper,
+.CartIconWrapper{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.MenuIconWrapper{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.MobileHeadingWrapper{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .logoWrapper {
+        width: 125px;
+        height: auto;
+        float: left;
+    }
+    .MenuWrapper{
+        max-width: 150px;
+    }
+    .SearchIconWrapper,
+    .CartIconWrapper,
+    .MenuIconWrapper{
+        width: 35px;
+        height: 35px;
+}
+    .hotelTitleWrapper h1 {
+        font-size: 24px;
+    }
+    .hotelTitleWrapper p{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .MobileHeadingWrapper{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .MobileHeadingWrapper h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .MobileHeadingWrapper p{
+        font-size: 18px;
+        margin: 0;
+    }
+    .hotelTitleWrapper{
+        display: none;
+    }
+}

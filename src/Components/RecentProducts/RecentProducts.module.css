@@ -1,0 +1,50 @@
+.RecentProductsWrapper {
+    width: calc(40% - 20px);
+    height: auto;
+    float: left;
+    padding-left: 20px;
+}
+
+.RecentProductsWrapper h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.AllProductsList {
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1700px) {
+    .RecentProductsWrapper h2 {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .RecentProductsWrapper {
+        width: calc(29% - 20px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .AllProductsList {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .RecentProductsWrapper {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+    .RecentProductsWrapper h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+}
